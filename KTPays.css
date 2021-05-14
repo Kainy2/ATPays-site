@@ -1,0 +1,279 @@
+/*p.column1{    
+    color: white;
+    background-color: rgb(53, 42, 42);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+
+    /*height: 80px;
+    width: 130px;
+    margin: 10px;
+
+}
+
+p.column2 {
+    color: white;
+    background-color: rgb(53, 42, 42);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+    
+    /*height: 80px;
+    width: 130px;
+    */
+
+body{
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    color:rgb(255, 123, 0);
+    text-align: center;
+        margin: 15px;
+}
+
+
+
+/*========= NAVIGATION BOX =========*/
+
+#nav{
+    background-color: rgb(53, 42, 42);
+    padding: 0px;
+    color: whitesmoke;
+    margin: 0px; 
+}
+
+#nav li{
+    display: inline;
+    padding: 2px;
+    vertical-align: center;
+
+}
+
+#nav a{
+    
+    padding: 0px 10px 0px 10px;
+    color: whitesmoke;
+    border: rgb(255, 123, 0) 2px solid; 
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#nav a:hover{
+    color: rgb(255, 123, 0);
+}
+
+.strong{
+    text-align: center;
+
+}
+
+h2 {
+    margin-top: 0px;
+    background-color: rgb(53, 42, 42);
+    color: whitesmoke;
+    border-bottom: rgb(255, 123, 0) 3px solid;
+    padding-left: 5px;
+
+}
+
+#Name {
+  padding-left: 200px;
+  
+}
+
+#Name p { 
+    margin-bottom: 4px;
+}
+
+#nav, h2 {
+    position: sticky ;
+    top: 0px;
+
+}
+/*========= PROFILE BOX =========*/
+
+#Profile {
+    display: flex;
+    margin-left: 20px;
+}
+
+#Details {
+    display: flex;
+}
+
+#Profile ul {
+    list-style: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 400px;
+    padding-left: 0px;
+}
+    /*box-shadow: 0px 0px 1px black;*/
+
+
+#Profile li {
+    box-shadow: 0px 0px 2px black;
+
+}
+
+#Profile a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+    padding-left: 50px;
+}
+
+#Profile ul li a:hover {
+    color: white;
+    background-color: rgb(255, 123, 0);
+}
+
+.link {
+margin-top: 0px;
+}
+
+.link a {
+    color: rgb(255, 123, 0);
+}
+
+
+/*========= OVERVIEW BOX =========*/
+
+#Overview {
+    color: white;
+
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 130px 130px 130px;
+    row-gap: 0px;
+    column-gap: 30px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+span {
+    font-size: 12px;
+}
+
+#Overview p {
+    background-color: rgb(53, 42, 42);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+
+#Overview p.lightgreen {
+    background-color: rgb(2, 219, 107);
+}
+
+#Overview p.darkgreen  {
+    background-color: rgb(7, 76, 60)
+}
+
+#Overview p.red {
+    background-color: red;
+}
+
+
+/*========= RECENT =========*/
+
+
+div.recent {
+    border-bottom: 2px rgb(255, 123, 0) solid;
+    background-color:rgb(53, 42, 42);
+}
+
+.RECENT li:first-child {
+    background:linear-gradient( to right, rgb(255, 123, 0) 10%, rgb(53, 42, 42) 10% );
+    color: rgb(245, 245, 245);
+    height: 30px;
+    margin: 0px;
+}
+
+.RECENT {
+    border-top: 0px;
+    margin: 10px;
+    color: white
+
+}
+.RECENT li {
+    color: rgb(255, 123, 0);
+    list-style-type: '»';
+    list-style-position: inside;
+    background-color: rgba(255, 123, 0, 0.35);
+    margin-bottom: 2px;
+    padding: 0px;
+    padding-right: -40px;
+
+}
+
+.RECENT ul{
+    margin: 0px -40px 50px -40px;
+}
+
+.RECENT ul a  {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 5px;
+
+}
+
+
+.RECENT ul li:hover, .RECENT ul li a:hover {   
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+
+#footer {
+    background-color: rgb(53, 42, 42);
+    color: white;
+    display: flex;
+    font-size: 95%;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+#footer ul li{
+    margin-bottom: 3px;
+}
+
+#footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer ul  li:first-child{
+    font-size: 120%;
+    color: rgb(255, 123, 0);
+    border-bottom: 2px rgb(255, 123, 0) solid ;
+    margin-bottom: 7px;
+    width: 180px;
+    
+    /*linear-gradient( to right, rgb(255, 123, 0) 50%, white 50% );*/
+
+}
+
+
+.footer1 {
+    width: 50%;
+}
